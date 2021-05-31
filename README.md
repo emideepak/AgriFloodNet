@@ -39,7 +39,7 @@ Install `Anaconda` from `https://www.anaconda.com/products/individual` and run t
 
 3. Run Spilting.py python code on Anaconda
 
-4. Run Sen12_CNN.py python code on Anaconda
+4. Run AgriFloodNet.py python code on Anaconda
 
 5. Run Training.py python code on Anaconda
 
