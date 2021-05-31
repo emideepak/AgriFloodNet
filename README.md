@@ -45,9 +45,11 @@ Install `Anaconda` from `https://www.anaconda.com/products/individual` and run t
 
 6. Run Testing.py python code on Anaconda
 
-7. The above steps are executed for both before and after Flood in Sentinel 1, 2 images.
+7. Run the DecisionFusion.py python code on Anaconda
 
-8. Run ChangeDetection.py python code on Anaconda
+8. The above steps are executed for both before and after Flood in Sentinel 1, 2 images.
+
+9. Run ChangeDetection.py python code on Anaconda
 The final change map is stored in `ChangeMap.png`
 
 
