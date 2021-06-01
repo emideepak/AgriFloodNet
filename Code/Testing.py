@@ -3,7 +3,7 @@
 # Program: Testing the CNN for Agriculture land, Bareland and water patches identification
 # Inputs:  Sen1model.h5 and Sen2model.h5 
 # Output:  Combined map of before flood and after flood of Sentinel 1 and sentinel 2 data 
-           with agriculture land, water and bareland classifiaction
+#          with agriculture land, water and bareland classifiaction
 ###################################################################################
 
 from tensorflow.keras.preprocessing.image import img_to_array
