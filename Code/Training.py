@@ -79,3 +79,30 @@ print('test acc:', test_acc*100)
 
 import pandas as pd
 hist_df = pd.DataFrame(history.history) 
+# save to csv:  
+hist_csv_file = 'Modelsen1.csv'
+with open(hist_csv_file, mode='w') as f:
+    hist_df.to_csv(f)
+
+# list all data in history
+import matplotlib.pyplot as plt
+print(history.history.keys())
+# summarize history for accuracy
+plt.plot(history.history['accuracy'])
+plt.plot(history.history['val_accuracy'])
+#plt.plot(100)
+#plt.plot(100)
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='lower right')
+plt.show()
+
+# summarize history for loss
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper right')
+plt.show()
