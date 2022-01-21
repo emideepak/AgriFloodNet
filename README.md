@@ -1,5 +1,5 @@
 # AgriFloodNet Architecture
-Authors: A. Emily Jenifer, A. Aparna and Sudha Natarajan, SASTRA Deemed University, Thanjavur.
+Authors: A. Emily Jenifer, A. Aparna , Sudha Natarajan and Anil Kumar.
 
 AgriFloodNet: A dual CNN architecture for crop damage assessment due to flood using bi-temporal multi-sensor images
 
